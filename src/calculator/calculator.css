@@ -1,0 +1,81 @@
+/* calculator.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+html{
+    scroll-behavior: smooth !important;
+}
+:root{
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background-color: var(--black) !important;
+    font-family: "Inter", sans-serif !important;
+}
+.card, .card-body, .form-control{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: var(--black) !important;
+    color: var(--white) !important;;
+}
+.calculator-main{
+    border: 1px solid var(--black) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    max-width: 350px !important;
+    text-align: center !important;
+}
+.form-control{
+    font-size: 4rem;
+    font-weight: 100 !important;
+    text-align: right !important;
+}
+.text-md{
+    font-size: 2.95rem !important;
+}
+button{
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 10rem !important;
+    margin: 3.5px;
+    width: 70px;
+    height: 70px;
+    font-size: 1.35rem !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+.btn-grey{
+    background-color: #A5A5A5 !important;
+    color: var(--black) !important;
+    font-size: 1.25rem !important;
+    text-align: center !important;
+}
+.btn-grey:active{
+    background-color: #D9D9D9 !important;
+}
+.btn-semigrey{
+    background-color: #343434 !important;
+    color: var(--white) !important;
+    font-size: 1.65rem !important;
+    text-align: center !important;
+}
+.btn-semigrey:active{
+    background-color: #737373 !important;
+}
+.btn-orange{
+    background-color: #FF9F09 !important;
+    color: var(--white) !important;
+    font-size: 1.65rem !important;
+    text-align: center !important;
+}
+.btn-orange:active{
+    background-color: #FBC78E !important;
+}
+.btn-long{
+    width: 145px !important;
+    text-align: left !important;
+    padding: 10px 25px !important;
+}
+.fas{
+    margin-left: -1px !important;
+}
