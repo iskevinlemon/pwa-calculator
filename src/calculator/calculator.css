@@ -76,6 +76,10 @@ button{
     text-align: left !important;
     padding: 10px 25px !important;
 }
+/* 
+ * Shift all icons -1px to the left as on some
+ * platforms the icons are not perfectly centered
+*/
 .fas{
     margin-left: -1px !important;
 }
